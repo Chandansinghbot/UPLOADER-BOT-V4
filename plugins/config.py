@@ -45,7 +45,7 @@ class Config(object):
 
     DEF_WATER_MARK_FILE = "Use this bot @url_uploaderV3Bott"
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://computertips637: computertips009@cluster0.psfxc4g.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://urluploader:urluploader@cluster0.js4keme.mongodb.net/?retryWrites=true&w=majority")
 
     SESSION_NAME = os.environ.get("SESSION_NAME", "url_uploaderV3Bot")
 
