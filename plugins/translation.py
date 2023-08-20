@@ -30,17 +30,17 @@ I Am Telegram URL Uploader Bot.
  
 """
     ABOUT_TEXT = """
-**📛 My Name** : [Uploader Bot V4 🚀](http://t.me/anumitultrabots)
+**📛 My Name** : [Uploader Bot V4 🚀](http://t.me/url_uploaderV3Bot)
 
-**❤️ Version** : [2.3 🔥](http://t.me/anumitultrabots)
+**❤️ Version** : [2.3 🔥](http://t.me/EliteCraft_Studios)
 
-**🤖 Source** : [Click](https://github.com/HelloUltra44/UPLOADER-BOT-V4)
+**🤖 Source** : Not Available ❌
 
 **🧿 Language** : [Python 3.10.9](https://www.python.org/)
 
 **📢 Framework** : [Pyrogram 1.4.16](https://docs.pyrogram.org/)
 
-**👨‍💻 Developer** : [Amit](https://t.me/ajak4405)
+**👨‍💻 Developer** : [IT'S LUFFY](https://t.me/God_Luffy_ATI)
 
 """
 
@@ -55,12 +55,12 @@ I Am Telegram URL Uploader Bot.
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Settings', callback_data='OpenSettings')
+        InlineKeyboardButton('⚙️ Settings ⚙️', callback_data='OpenSettings')
         ],[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about')
+        InlineKeyboardButton('Help 🫂', callback_data='help'),
+        InlineKeyboardButton('🧑‍🎓 About🧑‍🎓', callback_data='about')
         ],[
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🔒 Close', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
@@ -73,7 +73,7 @@ I Am Telegram URL Uploader Bot.
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Back', callback_data='home'),
+        InlineKeyboardButton('🔙 Back', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help')
         ],[
         InlineKeyboardButton('🔒 Close', callback_data='close')
@@ -81,7 +81,7 @@ I Am Telegram URL Uploader Bot.
     )
     BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🔒 Close', callback_data='close')
         ]]
     )
     TEXT = "sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ sᴇᴛ ɪᴛ"
@@ -89,7 +89,7 @@ I Am Telegram URL Uploader Bot.
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>No preminum plans available in this bot </b>  /help for Details"
-    FORMAT_SELECTION = "<b>Select Your Format 👇\n\n🎥 Video = Upload As Streamble\n\n📂 File =Upload As File\n\n👮‍♂ Powered By :</b> @anumitultrabots"
+    FORMAT_SELECTION = "<b>Select Your Format 👇\n\n🎥 Video = Upload As Streamble\n\n📂 File =Upload As File\n\n👮‍♂ Powered By :</b> @EliteCraft_Studios"
     SET_CUSTOM_USERNAME_PASSWORD = """"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "📥 Downloading..."
