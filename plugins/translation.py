@@ -46,11 +46,14 @@ I Am Telegram URL Uploader Bot.
 
 
     PROGRESS = """
-🚀 Sᴘᴇᴇᴅ : {3}/s\n
-✅ Dᴏɴᴇ : {1}\n
-📁 Tᴏᴛᴀʟ Sɪᴢᴇ  : {2}\n
-🕔 Tɪᴍᴇ : {4}\n
-"""
+╭━〔PROGRESS BAR〕━◉
+┃╭━━━━━━━━━━━━━━◉
+┃┣⪼ 🚀 Sᴘᴇᴇᴅ : {3}/s
+┃┣⪼ ⏳️ Dᴏɴᴇ : {1}
+┃┣⪼ 🗂️ Tᴏᴛᴀʟ Sɪᴢᴇ : {2}
+┃┣⪼ ⏱️ Tɪᴍᴇ : {4}
+┃╰━━━━━━━━━━━━━◉
+╰━━━━━━━━━━━━━━━◉"""
 
 
     START_BUTTONS = InlineKeyboardMarkup(
@@ -65,16 +68,16 @@ I Am Telegram URL Uploader Bot.
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Back', callback_data='home'),
-        InlineKeyboardButton('About', callback_data='about')
+        InlineKeyboardButton('🔙 Back', callback_data='home'),
+        InlineKeyboardButton('🧑‍🎓 About 🧑‍🎓', callback_data='about')
         ],[
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🔒 Close', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('🔙 Back', callback_data='home'),
-        InlineKeyboardButton('Help', callback_data='help')
+        InlineKeyboardButton('🎯 Help', callback_data='help')
         ],[
         InlineKeyboardButton('🔒 Close', callback_data='close')
         ]]
@@ -92,11 +95,11 @@ I Am Telegram URL Uploader Bot.
     FORMAT_SELECTION = "<b>Select Your Format 👇\n\n🎥 Video = Upload As Streamble\n\n📂 File =Upload As File\n\n👮‍♂ Powered By :</b> @EliteCraft_Studios"
     SET_CUSTOM_USERNAME_PASSWORD = """"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "📥 Downloading..."
-    UPLOAD_START = "📤 Uploading.."
+    DOWNLOAD_START = "༻☬ད𝗥𝗲𝗰𝗲𝗶𝘃𝗶𝗻𝗴 𝙈𝙚𝙩𝙖𝙙𝙖𝙩𝙖.."
+    UPLOAD_START = "༻☬ད𝘽𝙪𝙡𝙞𝙙𝙞𝙣𝙜 𝙈𝙚𝙩𝙖𝙙𝙖𝙩𝙖.."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = " OWNER : Lisa 💕\nFor the List of Telegram Bots"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = " OWNER : LUFFY 💕\nFor the List of Telegram Bots"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nTʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ\n\nUᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     SAVED_CUSTOM_THUMB_NAIL = "Save Your Thumbnail ✔️"
