@@ -2,7 +2,7 @@ beautifulsoup4
 hachoir
 numpy
 Pillow
-pyrogram==1.4.16
+pyrogram==2.0.83
 tgcrypto
 requests
 youtube-search-python
